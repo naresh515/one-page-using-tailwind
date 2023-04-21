@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>First Tailwind Website</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="mx-auto my-0 w-auto">
+        <div class="text-center flex justify-center relative">
+            <img src="./img/6.jpg" alt="" class="h-96 relative w-full">
+        </div>
+        <div class="justify-center left-0 right-0 mx-auto my-0 flex flex-col
+             bg-white bg-opacity-50 absolute top-1/2 w-5/6 shadow-xl shadow-black">
+            <ul class="flex justify-around capitalize">
+                <li class="py-4 px-4">unites states</li>
+                <li class="py-4 px-4">New York, 94126</li>
+                <li class="py-4 px-4">+01 234 567 89</li>
+                <li class="py-4 px-4">Tax ID: 273 384</li>
+            </ul>
+            <div class="flex flex-col my-0 mx-32">
+                <input type="text" placeholder="Name" class="border mt-5 pl-8 py-1">
+                <input type="email" placeholder="Email Address" class="border mt-5 pl-8 py-1" required>
+                <textarea placeholder="Massege" id="mybox" rows="10" class="border mt-5 pl-8 py-1"></textarea>
+                <div class="flex justify-center">
+                    <input type="checkbox" class="cursor-pointer border mt-5 pl-8 py-1">
+                    <p class="mt-5 pl-8 py-1"> Send Me a copy of this Massege</p>
+                </div>
+                <div class="bg-blue-700 text-white text-center cursor-pointer mt-5 pl-8 py-1 rounded-md mb-5">
+                    <button type="button" placeholder="Send">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
